@@ -1,0 +1,33 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="12.css">
+    <link rel="stylesheet" href="101.css">
+    <title> Shop Bán Dụng Cụ Sản Xuất Âm Nhạc </title>
+    <script>
+        var myIndex = 0;
+        carousel2();
+        
+        function carousel2() {
+          var i;
+          var x = document.getElementsByClassName("mySlides2");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel2, 7000);    
+        }
+        </script>
+        
+        <div>
+            <p>Ảnh xuất hiện theo kiểu mờ/rõ dần trong vài giây</p>
+          
+            <img class="mySlides2 animate-fading" src="https://canxem.com/img/1.jpg">
+            <img class="mySlides2 animate-fading" src="https://canxem.com/img/2.jpg">
+            <img class="mySlides2 animate-fading" src="https://canxem.com/img/3.jpg">
+            <img class="mySlides2 animate-fading" src="https://canxem.com/img/4.jpg">
+          </div>
+</head>

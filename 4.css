@@ -1,0 +1,142 @@
+
+
+.menu {
+    width:1060px;
+    margin:10px auto;
+    background:#ffffcc;
+    height: 55px;
+    margin-top: 1px;
+}
+.menu li {
+   
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+.menu a {
+    transition:all linear 0.15s;
+    color:#6dbfee;
+    text-decoration:none;
+}
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#be5b70;
+}
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+} 
+.menu > ul > li {
+ 
+    display:inline-block;
+    position:relative;
+    font-size:20px;
+}
+.menu > ul > li > a {
+    padding:16px 30px;
+    display:inline-block;
+    color:white;
+}
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#2e2728;
+}
+.menu li:hover .sub-menu {
+
+    opacity:1;
+    z-index: 1;
+}
+.sub-menu {
+    width: 100%;
+    padding: 15px 0px;
+    position:absolute;
+    top:100%;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    background:#2e2728;
+}
+.sub-menu li {
+    display:block;
+    font-size:15px;
+    font-size: medium;
+    align-items: center;
+}
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+table.like tr td  {
+   
+    border: 1px solid none;
+    padding:0 15px;
+       
+     }
+     table.likes tr td  {
+    
+         border: 1px solid none;
+         padding:0 15px;
+            
+          }
+        
+          table.like tr.cv td b{
+          background-color: #f55c3a;
+          padding:12px 48px ;
+         border-radius: 50px;
+      
+
+          }
+          table.likes tr.cv td b{
+             background-color: #f55c3a;
+             padding:12px 48px ;
+            border-radius: 50px;
+           
+    
+             }
+
+             table.like tr td a{
+                text-decoration: none;
+                color: rgba(13, 105, 224, 0.986);
+                
+            }
+            table.likes tr td a{
+                text-decoration: none;
+                color: rgba(13, 105, 224, 0.986);
+            }
+          
+     table.like{
+        
+      
+       margin-top: 1px;
+       margin:10px auto;
+       
+     }   
+     .likes  
+     {
+        margin: 20px auto;
+        margin-top: 15px;
+      
+     }  
+
+     header{
+        width: 980px;
+        height: 220px;
+        background:      #0a92e0;
+        margin: 10px auto;
+        border: 20px dashed #7e81a3;
+        background-clip: border-box;
+    
+       }
+       nav h2{
+        width: 150px;
+        background-color: #ff3da8;
+        padding:12px 48px ;
+        border-radius: 70px;
+        
+    }
+ body.anh{
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(https://cdn.tgdd.vn/hoi-dap/1374019/200-hinh-nen-slide-mo-dau-powerpoint-cuc-chuyen-nghiep-an41.jpg);
+ }
+ 

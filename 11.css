@@ -1,0 +1,18 @@
+#ig-header {padding-top: 30px}
+.ig-tt-block-multiple a {color: var(--main-green-color); text-transform: uppercase; margin-bottom: 15px; font-size: 1.25rem}
+.ig-multiple a:hover {color: var(--main-green-color) !important;}
+.ig-featured .uk-dotnav>.uk-active>* {background: var(--main-green-color);}
+.ig-subscribe {background: var(--main-dark-red-color); padding: 8px; margin-top: 30px}
+.ig-tt-subscribe {color: var(--main-green-color); text-transform: uppercase; font-size: 1.125rem; padding: 5px 0 0 20px}
+.ig-tt-subscribe span {display: block; color: rgba(255,255,255,0.8);}
+.ig-submit-subscribe {background: var(--main-green-color); color: var(--main-white-color); text-transform: uppercase; right: 5px; top: 5px; height: 45px; padding: 0 20px; font-size: 0.875rem; font-family: 'Roboto-Bold', sans-serif}
+.ig-to-top {background: var(--main-dark-red-color); padding: 10px; color: var(--main-white-color) !important;}
+.icon-menu {background-color: var(--main-dark-red-color); mask: url("data:image/svg+xml,%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 459 459' style='enable-background:new 0 0 459 459;' xml:space='preserve'%3E%3Cg%3E%3Cg id='menu'%3E%3Cpath d='M0,382.5h459v-51H0V382.5z M0,255h459v-51H0V255z M0,76.5v51h459v-51H0z'/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E") no-repeat 100% 100%;	-webkit-mask: url("data:image/svg+xml,%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 459 459' style='enable-background:new 0 0 459 459;' xml:space='preserve'%3E%3Cg%3E%3Cg id='menu'%3E%3Cpath d='M0,382.5h459v-51H0V382.5z M0,255h459v-51H0V255z M0,76.5v51h459v-51H0z'/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E") no-repeat 100% 100%;}
+.icon-search-mb {background-color: var(--main-dark-red-color); cursor: pointer;}
+.ig-logo-ft a img {display: inline-block; max-height: 45px}
+.ig-download-item {height: 32px; line-height: 1.5; background: var(--main-dark-red-color); padding: 0 10px; color: var(--main-white-color); font-size: 0.6875rem; font-family: 'Roboto-Bold', sans-serif; text-transform: uppercase}
+.ig-download-item:hover {background: var(--main-green-color)}
+.ig-buy:hover {background: var(--main-green-color); border-color: var(--main-green-color); color: var(--main-white-color)}
+.ig-tt-iframe {font-family: 'Roboto-Bold', sans-serif; margin-left: 3px; font-size: 0.6875rem; color: var(--main-white-color); background: #1877f2; padding: 0 8px 3px; border-radius: 3px; position: relative; top: -2px;cursor: pointer;}
+
+

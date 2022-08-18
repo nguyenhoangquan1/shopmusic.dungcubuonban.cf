@@ -1,0 +1,373 @@
+
+.wp-elce{position:fixed;bottom:0;z-index:99999}.wp-elce #elce-phone{transition:0.7s all;-moz-transition:0.7s all;-webkit-transition:0.7s all}.wp-elce .elce-contact{position:relative}.wp-elce .elce-contact .elce-phone{position:relative;visibility:visible;background-color:transparent;width:90px;height:90px;cursor:pointer;z-index:11;-webkit-backface-visibility:hidden;-webkit-transform:translateZ(0);transition:visibility .5s;left:0;bottom:0;display:block}.elce-phone-img-circle{background-color:#e60808;width:40px;height:40px;line-height:40px;top:25px;left:25px;position:absolute;border-radius:50%;display:flex;justify-content:center;-webkit-animation:phonering-alo-circle-img-anim 1s infinite ease-in-out;animation:phone-elce-circle-fill 1s infinite ease-in-out}@-webkit-keyframes phone-elce-circle-fill{0%{-webkit-transform:rotate(0) scale(1) skew(1deg)}10%{-webkit-transform:rotate(-25deg) scale(1) skew(1deg)}20%{-webkit-transform:rotate(25deg) scale(1) skew(1deg)}30%{-webkit-transform:rotate(-25deg) scale(1) skew(1deg)}40%{-webkit-transform:rotate(25deg) scale(1) skew(1deg)}50%{-webkit-transform:rotate(0) scale(1) skew(1deg)}100%{-webkit-transform:rotate(0) scale(1) skew(1deg)}}@-webkit-keyframes zoom{0%{transform:scale(.9)}70%{transform:scale(1);box-shadow:0 0 0 15px transparent}100%{transform:scale(.9);box-shadow:0 0 0 0 transparent}}@keyframes zoom{0%{transform:scale(.9)}70%{transform:scale(1);box-shadow:0 0 0 15px transparent}100%{transform:scale(.9);box-shadow:0 0 0 0 transparent}}.elce-phone-img-circle a{display:block;line-height:37px}.elce-phone-img-circle img{max-height:25px;max-width:27px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%)}.elce-phone-circle-fill{width:65px;height:65px;top:12px;left:12px;position:absolute;box-shadow:0 0 0 0 #c31d1d;background-color:rgba(230,8,8,.7);border-radius:50%;border:2px solid transparent;-webkit-animation:phone-elce-circle-fill 2.3s infinite ease-in-out;animation:phone-elce-circle-fill 2.3s infinite ease-in-out;transition:all .5s;-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-animuiion:zoom 1.3s infinite;animation:zoom 1.3s infinite}.phone-bar a{position:fixed;bottom:25px;left:30px;z-index:-1;color:#fff;font-size:16px;padding:8px 15px 7px 50px;border-radius:100px;white-space:nowrap;text-decoration:none;font-weight:700}#elce-zalo .elce-phone-circle-fill{box-shadow:0 0 0 0 #2196f3;background-color:rgba(33,150,243,.7)}#elce-zalo .elce-phone-img-circle{background-color:#2196F3}#elce-map .elce-phone-circle-fill{box-shadow:0 0 0 0 #714497;background-color:rgba(113,68,151,.8)}#elce-map .elce-phone-img-circle{background-color:#714497}#elce-contact .elce-phone-circle-fill{opacity:.7;box-shadow:0 0 0 0 #79ba2a;background-color:#79ba2a}#elce-contact .elce-phone-img-circle{background-color:#79ba2a}#elce-facebook.elce-phone-circle-fill{opacity:.7;box-shadow:0 0 0 0 #3399ff;background-color:#3399ff}#elce-facebook.elce-phone-img-circle{background-color:#3399ff}
+.menu{
+    width: 1000px ;
+    height: 60px;
+    background-color:#BDB76B ;  
+   margin-top: -4px;
+ 
+}
+.menu li{
+    list-style: none;
+ 
+}
+.menu a{
+   text-decoration: none;
+   color: rgb(243, 239, 239);
+   font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.menu > li{
+    list-style: none;
+ padding: 20px 30px;
+    float: left;
+    position:relative;
+    
+}
+
+.menu li:hover >a{
+    background-color: beige;
+    padding: 16px 16px;
+    color: red;
+}
+
+
+.danhmuc{
+    width: 150px;
+    height: 500px;
+    overflow: hidden;
+    float: left;
+
+  
+}
+.sanpham{
+    width: 860px;
+    height: auto;
+    float: left;
+
+  
+}
+
+.danhmuc h1{
+    font-size: 13px;
+}
+.mot {
+    width: 200px;
+    height: 310px;
+    overflow: hidden;
+    float: left;
+    padding: 5px 5px;
+    text-align: center;
+}
+.hai {
+    width: 200px;
+    height: 310px;
+    overflow: hidden;
+    float: left;
+    padding: 5px 5px;
+    text-align: center;
+}
+.ba {
+    width: 200px;
+    height: 310px;
+    overflow: hidden;
+    float: left;
+    padding: 5px 5px;
+    text-align: center;
+}
+.bon {
+    width: 220px;
+    height: 310px;
+    overflow: hidden;
+    float: left;
+    padding: 5px 5px;
+    text-align: center;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  
+ 
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+ 
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: tomato;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+ #menuToggle span
+ {
+   display: block;
+   width: 33px;
+   height: 4px;
+   margin-bottom: 5px;
+   position: relative;
+   
+   background: #cdcdcd;
+   border-radius: 3px;
+   
+   z-index: 1;
+   
+   transform-origin: 4px 0px;
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+             
+   
+ }
+ 
+ #menuToggle span:first-child
+ {
+   transform-origin: 0% 0%;
+ }
+ 
+ #menuToggle span:nth-last-child(2)
+ {
+   transform-origin: 0% 100%;
+ }
+ 
+ /* 
+  * Transform all the slices of hamburger
+  * into a crossmark.
+  */
+  #menuToggle input:checked ~ span
+  {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+  }
+  
+  /*
+   * But let's hide the middle one.
+   */
+  #menuToggle input:checked ~ span:nth-last-child(3)
+  {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+  
+  /*
+   * Ohyeah and the last one should go the other direction
+   */
+  #menuToggle input:checked ~ span:nth-last-child(2)
+  {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+  
+  /*
+   * Make this absolute positioned
+   * at the top left of the screen
+   */
+  #menu
+  {
+    position: absolute;
+    width: 150px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+    
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+  
+  #menu li
+  {
+    padding: 10px 0;
+    font-size: 22px;
+  }
+  
+  /*
+   * And let's slide it in from the left
+   */
+  #menuToggle input:checked ~ ul
+  {
+    transform: none;
+  }
+  
+
+.menu {
+    width:1060px;
+    margin:10px auto;
+    background:#ffffcc;
+    height: 55px;
+    margin-top: 1px;
+}
+.menu li {
+   
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+.menu a {
+    transition:all linear 0.15s;
+    color:#6dbfee;
+    text-decoration:none;
+}
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#be5b70;
+}
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+} 
+.menu > ul > li {
+ 
+    display:inline-block;
+    position:relative;
+    font-size:20px;
+}
+.menu > ul > li > a {
+    padding:16px 30px;
+    display:inline-block;
+    color:white;
+}
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#2e2728;
+}
+.menu li:hover .sub-menu {
+
+    opacity:1;
+    z-index: 1;
+}
+.sub-menu {
+    width: 100%;
+    padding: 15px 0px;
+    position:absolute;
+    top:100%;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    background:#2e2728;
+}
+.sub-menu li {
+    display:block;
+    font-size:15px;
+    font-size: medium;
+    align-items: center;
+}
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+table.like tr td  {
+   
+    border: 1px solid none;
+    padding:0 15px;
+       
+     }
+     table.likes tr td  {
+    
+         border: 1px solid none;
+         padding:0 15px;
+            
+          }
+        
+          table.like tr.cv td b{
+          background-color: #f55c3a;
+          padding:12px 48px ;
+         border-radius: 50px;
+      
+
+          }
+          table.likes tr.cv td b{
+             background-color: #f55c3a;
+             padding:12px 48px ;
+            border-radius: 50px;
+           
+    
+             }
+
+             table.like tr td a{
+                text-decoration: none;
+                color: rgba(13, 105, 224, 0.986);
+                
+            }
+            table.likes tr td a{
+                text-decoration: none;
+                color: rgba(13, 105, 224, 0.986);
+            }
+          
+     table.like{
+        
+      
+       margin-top: 1px;
+       margin:10px auto;
+       
+     }   
+     .likes  
+     {
+        margin: 20px auto;
+        margin-top: 15px;
+      
+     }  
+
+     header{
+        width: 980px;
+        height: 220px;
+        background:      #0a92e0;
+        margin: 10px auto;
+        border: 20px dashed #7e81a3;
+        background-clip: border-box;
+    
+       }
+       nav h2{
+        width: 150px;
+        background-color: #ff3da8;
+        padding:12px 48px ;
+        border-radius: 70px;
+        
+    }
+ body.anh{
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(https://cdn.tgdd.vn/hoi-dap/1374019/200-hinh-nen-slide-mo-dau-powerpoint-cuc-chuyen-nghiep-an41.jpg);
+ }
+ 
